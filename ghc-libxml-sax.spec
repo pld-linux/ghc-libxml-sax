@@ -1,12 +1,12 @@
 %define		pkgname	libxml-sax
 Summary:	A Haskell binding to the libxml-sax graphics library
 Name:		ghc-%{pkgname}
-Version:	0.7.3
+Version:	0.7.5
 Release:	1
 License:	BSD
 Group:		Development/Languages
 Source0:	http://hackage.haskell.org/packages/archive/%{pkgname}/%{version}/%{pkgname}-%{version}.tar.gz
-# Source0-md5:	b47aed56793b2860e2caea32905107f4
+# Source0-md5:	c2ee96657807cd75f400c58c7a7134d3
 URL:		http://hackage.haskell.org/package/libxml-sax/
 BuildRequires:	ghc >= 6.12.3
 BuildRequires:	ghc-text
